@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_canvas">
+    <par_dashboard_canvas action="INSERT_OR_UPDATE">
+        <dashboard display_value="NeedIt Application">3ef4a4d3c32cf210c03ed4fc0501314d</dashboard>
+        <dashboard_tab display_value="🧑‍💻 Assigned to Me">75e9e4dbc32cf210c03ed4fc0501311d</dashboard_tab>
+        <layout>[{"sys_id":"672a2c5fc32cf210c03ed4fc05013198","x":0,"y":0,"w":49,"h":13,"component_id":"2b1c080881e05dc63b917044290b233f","component_props":"{\"sourceType\":\"0\",\"scorecardType\":\"list\",\"indicatorGroup\":\"\",\"indicators\":[],\"breakdowns\":[],\"aggregateId\":\"default\",\"showBreakdownsOnly\":false,\"allowChangeBreakdown\":false,\"breakdownVisibilitySelector\":false,\"showBookmarkedOnly\":false,\"swapBreakdownsAsColumns\":false,\"nestedBreakdown\":true,\"metrics\":{\"fields\":[\"lastScore\",\"changeAndChangePercent\",\"target\",\"trend\"],\"multiScore\":null},\"query\":\"active=true\",\"pageSize\":\"10\",\"sortBy\":\"name\",\"sortDir\":\"asc\",\"followFilters\":true,\"showFilterElement\":true,\"showFavorite\":true,\"showIndicatorInfo\":true,\"showAlternateRowColors\":true,\"showRowDividers\":false,\"showColumnDividers\":false,\"showHeader\":true,\"headingLevel\":2,\"hideDevSettings\":false,\"headingVariant\":false,\"showHeaderSeparator\":false,\"heading\":\"Your KPIs\",\"description\":\"\",\"wrapTitle\":false,\"showBorder\":false,\"filterConfigurations\":\"@state.parFilters\",\"colorSchemeId\":\"\",\"enableDrilldown\":true,\"showFilterIcon\":true,\"id\":\"sortBy\",\"value\":\"name\",\"noDebounce\":true,\"propLabel\":\"Sort by\",\"table\":\"task\",\"columnPreferenceKey\":\"\",\"fixedQuery\":\"\",\"listTitle\":\"All Active Tasks\",\"columns\":\"\",\"groupByField\":\"\",\"hideViewAll\":false,\"hideHighlightedValues\":false,\"bare\":true,\"highlightedValueConfigId\":\"\",\"hideHighlightContent\":false,\"highlightContent\":{\"patterns\":[],\"color\":\"\"},\"hideLinks\":false,\"nrlLandmark\":true,\"wordWrap\":false,\"overrideWordWrapUserPref\":false,\"maxCharLimit\":4000,\"hideEmptyStateImage\":false,\"hidePersonalization\":false,\"hideDotwalk\":false,\"hideColumnReorder\":false,\"hideRowSelector\":false,\"hideColumnGrouping\":false,\"hideColumnResizing\":false,\"hideColumnFiltering\":false,\"hideColumnSorting\":false,\"hideHeader\":false,\"hideTitle\":false,\"hideTitleRowCount\":false,\"hideLastRefreshedText\":false,\"hideRefreshButton\":false,\"hideInlineEditing\":false,\"isDashboard\":true}","can_edit":true}]</layout>
+        <sys_class_name>par_dashboard_canvas</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-17 18:55:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b1e9e4dbc32cf210c03ed4fc05013120</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>par_dashboard_canvas_b1e9e4dbc32cf210c03ed4fc05013120</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-17 18:57:04</sys_updated_on>
+    </par_dashboard_canvas>
+</record_update>
