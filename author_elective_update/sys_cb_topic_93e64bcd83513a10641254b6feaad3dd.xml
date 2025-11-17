@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="DELETE">
+        <applicability/>
+        <applicability_mode>script</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <context_profiles/>
+        <description>ITSM Conversion for creating incidents using Record Producer</description>
+        <dialog_acts_enabled>false</dialog_acts_enabled>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <foundational>false</foundational>
+        <graph>{"graph_api_version":"1.0.82","variables":{"4c8e218a4b1c4ed3b525974ef739d072":{"id":"4c8e218a4b1c4ed3b525974ef739d072","name":"LiveAgent_application","value":{"mode":"simple","value":null},"varType":"script","category":"vaVars"},"64f0cbec7a3e420e8adf53364c9ccb9c":{"category":"vaInputs","id":"64f0cbec7a3e420e8adf53364c9ccb9c","label":"User","name":"user","table":"sys_user","varType":"reference"}},"goals":{"primary":{"id":"primary","trigger":{"type":"primary"},"name":"primary","applicability":"","description":"","nodes":{"09ec84a3ddca4ee397c9c98192381dfc":{"id":"09ec84a3ddca4ee397c9c98192381dfc","stepType":"Start","name":"Start","greetingResponse":{"mode":"simple","value":""}},"aa467e14e6824bc1aafb6ea55b04ccbd":{"id":"aa467e14e6824bc1aafb6ea55b04ccbd","stepType":"TerminateGoal","name":"End","confirmationMessage":{"mode":"simple","value":""}}},"edges":[{"id":"ca2c1f71929a492abeafa310a0297f74","edgeType":"Edge","source":"09ec84a3ddca4ee397c9c98192381dfc","target":"aa467e14e6824bc1aafb6ea55b04ccbd","sourcePort":"","targetPort":""}]}}}</graph>
+        <key_phrases>Report IT Issue,Report IT Issue(Template),Report IT Issue,create,open,incident,ticket,issue,broken,help,IT</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <model_type>nlu_keyword</model_type>
+        <modify_confirmation_enabled>false</modify_confirmation_enabled>
+        <name>Report IT Issue</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <root_topic_id>7423c3c583513a10641254b6feaad37e</root_topic_id>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <source_topic_id>7423c3c583513a10641254b6feaad37e</source_topic_id>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-17 13:22:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>93e64bcd83513a10641254b6feaad3dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Report IT Issue</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_cb_topic_93e64bcd83513a10641254b6feaad3dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-17 13:22:40</sys_updated_on>
+        <title>Report IT Issue</title>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+    </sys_cb_topic>
+    <sys_translated_text action="DELETE" query="documentkey=93e64bcd83513a10641254b6feaad3dd"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>777daeebebd71e189698ff72dad0cd3e</instance_id>
+        <instance_name>dev294324</instance_name>
+        <name>sys_cb_topic_93e64bcd83513a10641254b6feaad3dd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic"><sys_cb_topic action="INSERT_OR_UPDATE"><applicability/><applicability_mode>script</applicability_mode><autopilot_topic>false</autopilot_topic><category/><channels/><connect_queue/><context_profiles/><description>ITSM Conversion for creating incidents using Record Producer</description><dialog_acts_enabled>false</dialog_acts_enabled><expose_on_palette>false</expose_on_palette><flexible_conversation_switching>false</flexible_conversation_switching><foundational>false</foundational><graph>{"graph_api_version":"1.0.82","variables":{"4c8e218a4b1c4ed3b525974ef739d072":{"id":"4c8e218a4b1c4ed3b525974ef739d072","name":"LiveAgent_application","value":{"mode":"simple","value":null},"varType":"script","category":"vaVars"},"64f0cbec7a3e420e8adf53364c9ccb9c":{"category":"vaInputs","id":"64f0cbec7a3e420e8adf53364c9ccb9c","label":"User","name":"user","table":"sys_user","varType":"reference"}},"goals":{"primary":{"id":"primary","trigger":{"type":"primary"},"name":"primary","applicability":"","description":"","nodes":{"09ec84a3ddca4ee397c9c98192381dfc":{"id":"09ec84a3ddca4ee397c9c98192381dfc","stepType":"Start","name":"Start","greetingResponse":{"mode":"simple","value":""}},"aa467e14e6824bc1aafb6ea55b04ccbd":{"id":"aa467e14e6824bc1aafb6ea55b04ccbd","stepType":"TerminateGoal","name":"End","confirmationMessage":{"mode":"simple","value":""}}},"edges":[{"id":"ca2c1f71929a492abeafa310a0297f74","edgeType":"Edge","source":"09ec84a3ddca4ee397c9c98192381dfc","target":"aa467e14e6824bc1aafb6ea55b04ccbd","sourcePort":"","targetPort":""}]}}}</graph><key_phrases>Report IT Issue,Report IT Issue(Template),Report IT Issue,create,open,incident,ticket,issue,broken,help,IT</key_phrases><library>false</library><live_agent>false</live_agent><model_type>nlu_keyword</model_type><modify_confirmation_enabled>false</modify_confirmation_enabled><name>Report IT Issue</name><nlu_intent/><nlu_intent_label/><nlu_model/><nlu_model_label/><nlu_provider/><palette_label/><roles/><root_topic_id>7423c3c583513a10641254b6feaad37e</root_topic_id><secure_custom_input_control>false</secure_custom_input_control><source_topic_id>7423c3c583513a10641254b6feaad37e</source_topic_id><sys_class_name>sys_cb_topic</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-17 13:22:40</sys_created_on><sys_domain>global</sys_domain><sys_id>93e64bcd83513a10641254b6feaad3dd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Report IT Issue</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_cb_topic_93e64bcd83513a10641254b6feaad3dd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-17 13:22:40</sys_updated_on><title>Report IT Issue</title><triggerable_by_notification>false</triggerable_by_notification><type>STANDARD</type></sys_cb_topic><sys_translated_text action="delete_multiple" query="documentkey=93e64bcd83513a10641254b6feaad3dd"/></record_update>]]></payload>
+        <payload_hash>-797577596</payload_hash>
+        <record_name>Report IT Issue</record_name>
+        <reverted_from/>
+        <source>e233e4d083517210641254b6feaad3d7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-17 13:22:40</sys_created_on>
+        <sys_id>1be64bcd83513a10641254b6feaad3e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a91fb5b940000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-17 13:22:40</sys_updated_on>
+        <type>Topic</type>
+        <update_guid>d7e64bcd21513a103ddd9662d2899ddf</update_guid>
+        <update_guid_history>d7e64bcd21513a103ddd9662d2899ddf:-797577596</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-17 13:23:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_cb_topic">sys_cb_topic</sys_db_object>
+        <sys_id>5478b753166240a08d3461442ec46040</sys_id>
+        <sys_metadata>93e64bcd83513a10641254b6feaad3dd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Report IT Issue</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_cb_topic_93e64bcd83513a10641254b6feaad3dd</sys_update_name>
+        <sys_update_version display_value="sys_cb_topic_93e64bcd83513a10641254b6feaad3dd">1be64bcd83513a10641254b6feaad3e0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-17 13:23:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
